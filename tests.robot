@@ -2,7 +2,7 @@
 
 Documentation           Data driven starter suite 
 Library                 QWeb
-Library                 DataDriver    reader_class=TestDataApi    name=CopadoAppTestData.csv
+Library                 DataDriver    encoding=utf_8    file=CopadoAppTestData.csv
 Suite Setup             Open Browser    about:blank   chrome
 Suite Teardown          Close All Browsers
 Test Setup              Home
@@ -26,4 +26,3 @@ Shop for products
 Home
     [Documentation]     Set the application state to the shop home page.
     GoTo                https://qentinelqi.github.io/shop/
-
